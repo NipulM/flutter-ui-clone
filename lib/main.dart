@@ -1,6 +1,5 @@
 // ignore_for_file: prefer_const_constructors
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/screens/settings_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,6 +21,6 @@ class MyApp extends StatelessWidget {
           useMaterial3:
               true, // Optional if you want to use Material 3 components
         ),
-        home: SettingsScreen());
+        home: MyHomePage());
   }
 }
