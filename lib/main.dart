@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/screens/profile.dart';
+import 'package:flutter_application_1/screens/store.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,11 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const ProfileScreen(),
+      // if you wanna see the profile screen uncomment the line below :)
+      // home: const ProfileScreen(),
+
+      // if you wanna see the store screen uncomment the line below :)
+      home: const StoreScreen(),
     );
   }
 }
